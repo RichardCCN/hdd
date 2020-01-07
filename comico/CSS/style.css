@@ -1,0 +1,988 @@
+html{
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.nav__menu{
+    display: block;
+    font-size: 2em;
+    position: absolute;
+    padding: 0;
+    border-radius: 4px;
+    margin-right: 303px;
+    display: none;
+}
+
+.nav__menu:hover{
+    background-color: darkgray;
+    color: white;
+    cursor: pointer;
+}
+
+.nav__list{
+    display: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-click{
+    display: block;
+}
+
+.three{
+    display: none;
+}
+
+.logo{
+    margin: 0px;
+    background-color:#263374;
+    height: 74px;
+    width: 359px;
+    border-radius: 6px;
+    margin: 52px 0px 0px 31px;
+}
+
+.logo2{
+    background-color:#263374;
+    height: 50px;
+    width: 334px;
+    margin: 12px 19px 7px 12px;
+}
+
+.text1{
+    color:#263374;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.textbox{
+    width: 209px;
+    height: 25px;
+    margin: 77px 6px 0px 6px;
+    text-align: center;
+    color:#263374;
+}
+
+.textbox:hover{
+    background-color: lightskyblue;
+}
+
+.line{
+    width: 2px;
+    height: 32px;
+    margin-top: 73px;
+    background-color:#AFAFAF;
+}
+
+.shopping_cart{
+    width: 40.5px;
+    height: 36px;
+}
+
+.cartarea{
+    height: 36px;
+    width: 40.5px;
+    margin: 69px 3.64% 0px 3.64%;
+}
+
+.cartarea2{
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    padding-top: 150px;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+aside{
+    width: 76%;
+    margin: auto;
+}
+
+.comics{
+    font-size: 40px;
+    font-weight: bold;
+    color:#263374;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+    text-align: center;
+    margin-left: 45%;
+}
+
+.picseq{
+    margin-top: 40px;
+    display: flex;
+}
+
+.seq{
+    color: #263374;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 30px;
+}
+
+.viewlist{
+    width: 25.5px;
+    height: 21px;
+    padding: 2px;
+}
+
+.detail{
+    font-size: 16px;
+    padding: 2px;
+    line-height: 1.1;
+    color:#3688D3;
+}
+
+.viewcomfy{
+    width: 25.5px;
+    height: 21px;
+    padding: 2px;
+}
+
+.seeall{
+    font-size: 16px;
+    padding: 2px;
+    line-height: 1.1;
+    color:#3688D3;
+}
+
+.comic{
+    width: 205px;
+    height: 270px;
+    margin: 0px 2.1%;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+    border: 0px;
+    padding: 0px;
+}
+
+.comic:hover{
+    box-shadow: -3px -3px 6px rgba(0, 0, 0, 0.329);
+    transform: translateY(2px);
+    transform: translateX(1px);
+}
+
+.urderpictext{
+    width: 225px;
+    height: 80px;
+    margin: 35px 34px 30px 30px;
+    text-align: center;
+}
+
+.picturctext{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    margin-top: 12px;
+}
+
+article{
+    display:flex;
+    justify-content:center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.uppage{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.uppage:hover{
+    color: lightskyblue;
+}
+
+.downpage{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.downpage:hover{
+    color: lightskyblue;
+}
+
+.pageone{
+    font-size: 18px;
+    padding: 5px;
+    color: #3688D3;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+.pageone:hover{
+    color: lightskyblue;
+}
+
+.pagetwo{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pagetwo:hover{
+    color: lightskyblue;
+}
+
+.pagethree{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pagethree:hover{
+    color: lightskyblue;
+}
+
+.pagefour{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pagefour:hover{
+    color: lightskyblue;
+}
+
+.footer{
+    height: 20%;
+    background-color: #263374;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.showmore{
+    display: flex;
+    padding-left: 33.75%;
+    padding-right: 33.75%;
+}
+
+.textbox2{
+    width: 124px;
+    height: 33px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.text2{
+    color:white;
+    font-size: 16px;
+}
+
+.line2{
+    width: 2px;
+    height: 26px;
+    margin-top: 30.5px;
+    background-color:white;
+}
+
+.information{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30.5px;
+    margin-bottom: 0px;
+}
+
+.companyinformation{
+    color:white;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.space{
+    margin-left: 20px;
+    text-align: center;
+    max-width: 205px;
+    max-height: 312px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 790px) {
+    html{
+        font-family: 'Noto Sans TC', sans-serif;
+        width: 768px;
+        height: 100%;
+    }
+    body{
+        max-width: 768px;
+        margin: auto;
+        background-color: white;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .three{
+        display: none;
+    }
+    
+    .logo{
+        margin: 0px;
+        background-color:#263374;
+        height: 44px;
+        width: 187px;
+        border-radius: 4px;
+        margin: 37px 0px 0px 31px;
+    }
+    
+    .logo2{
+        background-color:#263374;
+        height: 23px;
+        width: 165px;
+        margin: 12px 19px 7px 12px;
+    }
+    
+    .text1{
+        color:#263374;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .header{
+        display: flex;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    
+    .textbox{
+        width: 209px;
+        height: 25px;
+        margin: 45px 5px 0px 5px;
+        text-align: center;
+        color:#263374;
+    }
+    
+    .textbox:hover{
+        background-color: lightskyblue;
+    }
+    
+    .line{
+        width: 2px;
+        height: 32px;
+        margin-top: 43px;
+        background-color:#AFAFAF;
+    }
+    
+    .shopping_cart{
+        width: 20px;
+        height: 18px;
+    }
+    
+    .cartarea{
+        height: 18px;
+        width: 20px;
+        margin: 45px 3% 0px 3%;
+    }
+    
+    .cartarea2{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .nav{
+        padding-top: 110px;
+        text-align: center;
+        width: 100%;
+        height: 10%;
+    }
+    
+    aside{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .comics{
+        font-size: 32px;
+        font-weight: bold;
+        color:#263374;
+        text-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+        text-align: center;
+        margin-left: 310px;
+    }
+    
+    .picseq{
+        margin-top: 40px;
+        display: flex;
+    }
+    
+    .seq{
+        color: #263374;
+        display: flex;
+        justify-content: flex-end;
+        margin: 22px 0px 0px 0px;
+    }
+    
+    .viewlist{
+        width: 25.5px;
+        height: 21px;
+        padding: 2px;
+    }
+    
+    .detail{
+        font-size: 16px;
+        padding: 2px;
+        line-height: 1.1;
+        color:#3688D3;
+    }
+    
+    .viewcomfy{
+        width: 25.5px;
+        height: 21px;
+        padding: 2px;
+    }
+    
+    .seeall{
+        font-size: 16px;
+        padding: 2px;
+        line-height: 1.1;
+        color:#3688D3;
+    }
+    
+    .comic{
+        width: 103px;
+        height: 135px;
+        margin: 0px 2.1%;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.16);
+        border: 0px;
+        padding: 0px;
+    }
+    
+    .comic:hover{
+        box-shadow: -3px -3px 4px rgba(0, 0, 0, 0.329);
+        transform: translateY(2px);
+        transform: translateX(1px);
+    }
+    
+    .urderpictext{
+        width: 225px;
+        height: 80px;
+        margin: 35px 34px 30px 30px;
+        text-align: center;
+    }
+    
+    .picturctext{
+        font-size: 12px;
+        margin: 0;
+        text-align: center;
+        margin-top: 12px;
+    }
+    
+    article{
+        display:flex;
+        justify-content:center;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .uppage{
+        font-size: 18px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .uppage:hover{
+        color: lightskyblue;
+    }
+    
+    .downpage{
+        font-size: 18px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .downpage:hover{
+        color: lightskyblue;
+    }
+    
+    .pageone{
+        font-size: 18px;
+        padding: 5px;
+        color: #3688D3;
+        text-decoration: underline;
+        margin: 5px;
+    }
+    
+    .pageone:hover{
+        color: lightskyblue;
+    }
+    
+    .pagetwo{
+        font-size: 18px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .pagetwo:hover{
+        color: lightskyblue;
+    }
+    
+    .pagethree{
+        font-size: 18px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .pagethree:hover{
+        color: lightskyblue;
+    }
+    
+    .pagefour{
+        font-size: 18px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .pagefour:hover{
+        color: lightskyblue;
+    }
+    
+    .footer{
+        height: 21%;
+        background-color: #263374;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .showmore{
+        display: flex;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    .textbox2{
+        width: 124px;
+        height: 33px;
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    
+    .text2{
+        color:white;
+        font-size: 14px;
+    }
+    
+    .line2{
+        width: 2px;
+        height: 26px;
+        margin-top: 30.5px;
+        background-color:white;
+    }
+    
+    .information{
+        color:white;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+    
+    .companyinformation{
+        color:white;
+        font-size: 14px;
+        margin-top: 13px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    
+    .space{
+        margin: 0px 15px;
+        text-align: center;
+        max-width: 205px;
+        max-height: 312px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    html{
+        margin: 0px;
+        padding: 0px;
+        width: 365px;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+
+    img{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body{
+        max-width: 374px;
+        min-width: 374px;
+        background-color: white;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        padding: 0%;
+        margin: 0%;
+        
+    }
+
+    .nav__menu{
+        display: block;
+        font-size: 2em;
+        position: absolute;
+        padding: 0 15px;
+        border-radius: 4px;
+        top: 15px;
+        right: 10px;
+        color: #EFEFEF;
+        height: 20px;
+    }
+
+    .nav__menu:hover{
+        background-color: darkgray;
+        color: white;
+        cursor: pointer;
+    }
+
+    .nav__list{
+        display: none;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        margin-top: 56px;
+        background-color: #263374;
+        color: white;
+        text-align: center;
+    }
+
+    .menu-click{
+        display: block;
+    }
+
+    header{
+        background-color: #263374;
+        max-height: 55px;
+        width: 100%;
+        min-width: 374px;
+        height: 55px;
+    }
+
+    .three{
+        display: list-item;
+        padding: 0px;
+        margin: 0px;
+        display: none;
+    }
+
+    .threephoto{
+        height: 18px;
+        width: 27px;
+        margin: 17px 38px 14px 17px;
+    }
+
+    .logo{
+        padding: 0px;
+        margin: 0px;
+        height: 41px;
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+
+    .cartarea{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .cartarea2{
+        display: inline-flex;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: 12px;
+    }
+
+    .line{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .textbox{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .logo2{
+        width: 184px;
+        height: 27px;
+    }
+
+    .logo{
+        width: 197px;
+    }
+
+    .shopping_cart2{
+        margin: 15px 20px 15px 40px;
+        width: 20px;
+        height: 15px;
+    }
+
+    nav.nav{
+        padding: 0px;
+        padding-top: 61px;
+    }
+
+    .comics{
+        padding: 0px;
+        margin: 0px;
+        margin-left: 140px;
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        color:#263374;
+        text-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+        text-align: center;
+        display: block;
+    }
+
+    .seq{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: end;
+        margin-left: 60px;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+
+    .viewlist{
+        width: 12px;
+        height: 9px;
+        padding: 1px;
+    }
+    
+    .detail{
+        font-size: 10px;
+        padding: 1px;
+        line-height: 1.1;
+        display: inline-flex;
+        color:#263374;
+    }
+    
+    .viewcomfy{
+        width: 12px;
+        height: 9px;
+        padding: 1px;
+    }
+    
+    .seeall{
+        font-size: 10px;
+        padding: 1px;
+        line-height: 1.1;
+        display: inline-flex;
+        color:#263374;
+    }
+
+    aside{
+        margin: 0px;
+        max-width: 293px;
+        margin-left: 33px;
+        margin-right: 33px;
+        width: 60%;
+        margin-top: 40px;
+        margin-left: 90px;
+        margin-right: 90px;
+        
+    }
+        
+    .picseq{
+        margin-top: 10px;
+        display: table-row;
+        margin-left: 90px;
+    }
+
+    .comic{
+        width: 120px;
+        height: 162px;
+        margin: 0px 2.1%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
+        border: 0px;
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+
+    .comic:hover{
+        box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.329);
+        transform: translateY(2px);
+        transform: translateX(1px);
+    }
+
+    .urderpictext{
+        width: 225px;
+        height: 80px;
+        margin: 35px 34px 30px 30px;
+        text-align: center;
+    }
+
+    .picturctext{
+        font-size: 10px;
+        margin: 0;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    article{
+        display:flex;
+        justify-content:center;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .uppage{
+        font-size: 10px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .uppage:hover{
+        color: lightskyblue;
+    }
+
+    .downpage{
+        font-size: 10px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .downpage:hover{
+        color: lightskyblue;
+    }
+
+    .pageone{
+        font-size: 10px;
+        padding: 2px;
+        color: #3688D3;
+        text-decoration: underline;
+        margin: 2px;
+    }
+
+    .pageone:hover{
+        color: lightskyblue;
+    }
+
+    .pagetwo{
+        font-size: 10px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .pagetwo:hover{
+        color: lightskyblue;
+    }
+
+    .pagethree{
+        font-size: 10px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .pagethree:hover{
+        color: lightskyblue;
+    }
+
+    .pagefour{
+        font-size: 10px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .pagefour:hover{
+        color: lightskyblue;
+    }
+
+    .footer{
+        height: 12%;
+        background-color: #263374;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .showmore{
+        display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .textbox2{
+        width: 124px;
+        height: 33px;
+        margin-top: 4px;
+        text-align: center;
+        color: white;
+    }
+
+    .text2{
+        color:white;
+        font-size: 10px;
+    }
+
+    .line2{
+        width: 2px;
+        height: 13px;
+        margin: 0px;
+        margin-top: 12px;
+        background-color:white;
+    }
+
+    .information{
+        color:white;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+
+    .companyinformation{
+        color:white;
+        font-size: 10px;
+        margin-top: 7px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .space{
+        margin-left: 20px;
+        text-align: center;
+        max-width: 205px;
+        max-height: 312px;
+        margin-bottom: 20px;
+    }
+
+    footer.footer{
+        height: 100px;
+    }
+}

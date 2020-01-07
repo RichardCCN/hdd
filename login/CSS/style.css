@@ -1,0 +1,1049 @@
+html{
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.nav__menu{
+    display: block;
+    font-size: 2em;
+    position: absolute;
+    padding: 0;
+    border-radius: 4px;
+    margin-right: 303px;
+    display: none;
+}
+
+.nav__menu:hover{
+    background-color: darkgray;
+    color: white;
+    cursor: pointer;
+}
+
+.nav__list{
+    display: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-top: 56px;
+    background-color: #263374;
+    color: white;
+    text-align: center;
+}
+
+.menu-click{
+    display: block;
+}
+
+.three{
+    display: none;
+}
+
+.logo{
+    margin: 0px;
+    background-color:#263374;
+    height: 74px;
+    width: 359px;
+    border-radius: 6px;
+    margin: 52px 0px 0px 31px;
+}
+
+.logo2{
+    background-color:#263374;
+    height: 50px;
+    width: 334px;
+    margin: 12px 19px 7px 12px;
+}
+
+.text1{
+    color:#263374;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+}
+
+.textbox{
+    width: 209px;
+    height: 25px;
+    margin: 77px 6px 0px 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.textbox:hover{
+    background-color: lightskyblue;
+}
+
+.line{
+    width: 2px;
+    height: 32px;
+    margin-top: 73px;
+    background-color:#AFAFAF;
+}
+
+.shopping_cart{
+    width: 40.5px;
+    height: 36px;
+}
+
+.cartarea2{
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cartarea{
+    height: 36px;
+    width: 40.5px;
+    margin: 69px 3.64% 0px 3.64%;
+}
+
+.nav{
+    padding-top: 150px;
+    text-align: center;
+    width: 100%;
+    height: 7%;
+}
+
+article{
+    width: 100%;
+    height: 25%;
+}
+
+.login_text{
+    font-size: 40px;
+    font-weight: bold;
+    color:#263374;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+    margin-top: 0px;
+    margin-left: 44%;
+}
+
+
+.form1{
+    margin-top: 75px;
+}
+
+.accountdiv{
+    display:flex;
+    justify-content:center;
+}
+
+.passworddiv{
+    display:flex;
+    justify-content:center;
+}
+
+.checkboxdiv{
+    display:flex;   
+    margin-top: 6px;
+    margin-bottom: 37px;
+    margin-left: 35%;
+}
+
+.acpwtext{
+    font-size: 25px;
+    color:#263374;
+    margin-bottom: 10px;
+}
+
+#account{
+    background-color: #EFEFEF;
+    width: 390px;
+    height: 30px;
+    border: 2px;
+    border-bottom: 2px #ABABAB solid;
+    padding: 0px 5px;
+}
+
+#password{
+    background-color: #EFEFEF;
+    width: 390px;
+    height: 30px;
+    border: 2px ;
+    border-bottom: 2px #ABABAB solid;
+    padding: 0px 5px;
+}
+
+.remembertext{
+    font-size: 12px;
+    color:#263374;
+    line-height: 1.1;
+    max-height: 14px;
+    max-width: 48px;
+}
+
+#remember{
+    width: 14px;
+    height: 14px;
+    border: 1px #ABABAB solid;
+    margin: 0px;
+}
+
+.forgetpw{
+    font-size: 12px;
+    color:#263374;
+    text-decoration: underline;
+    margin-left: 20px;
+    line-height: 1.1;
+    max-height: 14px;
+    max-width: 54px;
+}
+
+.twobutton{
+    display:flex;
+    justify-content:center;
+}
+
+.loginbutton{
+    width: 88px;
+    height: 40px;
+    border: 2px;
+    border-radius: 6px;
+    background-color: #263374;
+    color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 28px;
+}
+
+.loginbutton:hover{
+    background-color: rgb(79, 130, 179);
+    box-shadow: 3px 3px 6px rgba(3, 60, 71, 0.336);
+    color: #fff;
+    transform: translateY(1px);
+}
+
+.registeredbutton{
+    width: 88px;
+    height: 40px;
+    border: 2px;
+    border-radius: 6px;
+    background-color: #263374;
+    color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 28px;
+}
+
+.registeredbutton:hover{
+    background-color: rgb(79, 130, 179);
+    box-shadow: 3px 3px 6px rgba(3, 60, 71, 0.336);
+    color: #fff;
+    transform: translateY(1px);
+}
+
+aside{
+    margin-top: 70px;
+    width: 100%;
+    height: 23%;
+}
+
+.onebutton{
+    display:flex;
+    justify-content:center;
+}
+
+.checkbuywhat{
+    width: 133px;
+    height: 40px;
+    border: 2px;
+    border-radius: 6px;
+    background-color: #263374;
+    color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.checkbuywhat:hover {
+    background-color: rgb(114, 217, 243);
+    box-shadow: 0px 15px 20px rgba(83, 226, 255, 0.336);
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+.redtextbox{
+    width: 39%;
+    height: 125px;
+    text-align: center;
+    margin: 17px 30.9% 0px 30.1%;
+}
+
+.redtext{
+    font-size: 21px;
+    color: #FF0000;
+}
+
+.footer{
+    height: 20%;
+    background-color: #263374;
+    width: 100%;
+}
+
+.showmore{
+    display: flex;
+    padding-left: 33.75%;
+    padding-right: 33.75%;
+}
+
+.textbox2{
+    width: 124px;
+    height: 33px;
+    margin-top: 30px;
+    text-align: center;
+    color:white;
+}
+
+.text2{
+    color:white;
+    font-size: 18px;
+}
+
+.line2{
+    width: 2px;
+    height: 26px;
+    margin-top: 30.5px;
+    background-color:white;
+}
+
+.information{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30.5px;
+    margin-bottom: 0px;
+}
+
+.companyinformation{
+    color:white;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 790px) {
+    html{
+        font-family: 'Noto Sans TC', sans-serif;
+        width: 768px;
+        height: 100%;
+    }
+
+    body{
+        max-width: 768px;
+        margin: auto;
+        background-color: white;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .nav__menu{
+        display: block;
+        font-size: 2em;
+        position: absolute;
+        padding: 0 15px;
+        border-radius: 4px;
+        top: 15px;
+        right: 10px;
+        display: none;
+    }
+    
+    .nav__menu:hover{
+        background-color: darkgray;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .nav__list{
+        display: none;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu-click{
+        display: block;
+    }
+
+    .three{
+        display: none;
+    }
+    
+    .logo{
+        margin: 0px;
+        background-color:#263374;
+        height: 44px;
+        width: 187px;
+        border-radius: 4px;
+        margin: 37px 0px 0px 31px;
+    }
+    
+    .logo2{
+        background-color:#263374;
+        height: 23px;
+        width: 165px;
+        margin: 12px 19px 7px 12px;
+    }
+    
+    .text1{
+        color:#263374;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .header{
+        display: flex;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    
+    .textbox{
+        width: 209px;
+        height: 25px;
+        margin: 45px 5px 0px 5px;
+        text-align: center;
+        color:#263374;
+        text-decoration: none;
+    }
+    
+    .textbox:hover{
+        background-color: lightskyblue;
+    }
+    
+    .line{
+        width: 2px;
+        height: 32px;
+        margin-top: 43px;
+        background-color:#AFAFAF;
+    }
+    
+    .shopping_cart{
+        width: 20px;
+        height: 18px;
+    }
+    
+    .cartarea{
+        height: 18px;
+        width: 20px;
+        margin: 45px 3% 0px 3%;
+    }
+    
+    .cartarea2{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .nav{
+        padding-top: 150px;
+        text-align: center;
+        width: 100%;
+        height: 7%;
+    }
+    
+    article{
+        width: 100%;
+        height: 25%;
+    }
+    
+    .login_text{
+        font-size: 25px;
+        font-weight: bold;
+        color:#263374;
+        text-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+        margin-top: 0px;
+    }
+    
+    .accountdiv{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .passworddiv{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .checkboxdiv{
+        display:flex;   
+        margin-top: 6px;
+        margin-bottom: 37px;
+        margin-left: 40%;
+    }
+    
+    .acpwtext{
+        font-size: 18px;
+        color:#263374;
+        margin-bottom: 10px;
+    }
+    
+    #account{
+        background-color: #EFEFEF;
+        width: 325px;
+        height: 25px;
+        border: 2px;
+        border-bottom: 2px #ABABAB solid;
+        padding: 0px 5px;
+    }
+    
+    #password{
+        background-color: #EFEFEF;
+        width: 325px;
+        height: 25px;
+        border: 2px ;
+        border-bottom: 2px #ABABAB solid;
+        padding: 0px 5px;
+    }
+    
+    .remembertext{
+        font-size: 12px;
+        color:#263374;
+        line-height: 1.1;
+        max-height: 14px;
+        max-width: 48px;
+    }
+    
+    #remember{
+        width: 14px;
+        height: 14px;
+        border: 1px #ABABAB solid;
+        margin: 0px;
+    }
+    
+    .forgetpw{
+        font-size: 12px;
+        color:#263374;
+        text-decoration: underline;
+        margin-left: 20px;
+        line-height: 1.1;
+        max-height: 14px;
+        max-width: 54px;
+    }
+    
+    .twobutton{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .loginbutton{
+        width: 66px;
+        height: 30px;
+        border: 2px;
+        border-radius: 6px;
+        background-color: #263374;
+        color: white;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0px 28px;
+    }
+    
+    .loginbutton:hover{
+        background-color: rgb(79, 130, 179);
+        box-shadow: 3px 3px 6px rgba(3, 60, 71, 0.336);
+        color: #fff;
+        transform: translateY(1px);
+    }
+    
+    .registeredbutton{
+        width: 66px;
+        height: 30px;
+        border: 2px;
+        border-radius: 6px;
+        background-color: #263374;
+        color: white;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0px 28px;
+    }
+    
+    .registeredbutton:hover{
+        background-color: rgb(79, 130, 179);
+        box-shadow: 3px 3px 6px rgba(3, 60, 71, 0.336);
+        color: #fff;
+        transform: translateY(1px);
+    }
+    
+    aside{
+        margin-top: 40px;
+        width: 100%;
+        height: 23%;
+    }
+    
+    .onebutton{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .checkbuywhat{
+        width: 110px;
+        height: 30px;
+        border: 2px;
+        border-radius: 5px;
+        background-color: #263374;
+        color: white;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .checkbuywhat:hover {
+        background-color: rgb(114, 217, 243);
+        box-shadow: 0px 15px 20px rgba(83, 226, 255, 0.336);
+        color: #fff;
+        transform: translateY(-4px);
+    }
+    
+    .redtextbox{
+        width: 60%;
+        height: 125px;
+        text-align: center;
+        margin: 17px 20% 0px 20%;
+    }
+    
+    .redtext{
+        font-size: 16px;
+        color: #FF0000;
+    }
+
+    .footer{
+        height: 21%;
+        background-color: #263374;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .showmore{
+        display: flex;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    .textbox2{
+        width: 124px;
+        height: 33px;
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    
+    .text2{
+        color:white;
+        font-size: 14px;
+    }
+    
+    .line2{
+        width: 2px;
+        height: 26px;
+        margin-top: 30.5px;
+        background-color:white;
+    }
+    
+    .information{
+        color:white;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+    
+    .companyinformation{
+        color:white;
+        font-size: 14px;
+        margin-top: 13px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    html{
+        margin: 0px;
+        padding: 0px;
+        width: 374px;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+
+    img{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body{
+        max-width: 374px;
+        min-width: 374px;
+        background-color: white;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        padding: 0%;
+        margin: 0%;
+        
+    }
+
+    .nav__menu{
+        display: block;
+        font-size: 2em;
+        position: absolute;
+        padding: 0 15px;
+        border-radius: 4px;
+        top: 15px;
+        right: 10px;
+        color: #EFEFEF;
+        height: 0px;
+    }
+
+    .nav__menu:hover{
+        background-color: darkgray;
+        color: white;
+        cursor: pointer;
+    }
+
+    .nav__list{
+        display: none;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        margin-top: 56px;
+        background-color: #263374;
+        color: white;
+        text-align: center;
+    }
+
+    .menu-click{
+        display: block;
+    }
+
+    header{
+        background-color: #263374;
+        max-height: 55px;
+        width: 100%;
+        min-width: 374px;
+    }
+
+    .three{
+        display: list-item;
+        padding: 0px;
+        margin: 0px;
+        display: none;
+    }
+
+    .threephoto{
+        height: 18px;
+        width: 27px;
+        margin: 17px 38px 14px 17px;
+    }
+
+    .logo{
+        padding: 0px;
+        margin: 0px;
+        height: 41px;
+        margin-left: 90px;
+        margin-top: 10px;
+        position: absolute;
+    }
+
+    .cartarea{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .cartarea2{
+        display: inline-flex;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 300px;
+        margin-top: 12px;
+        position: absolute;
+    }
+
+    .line{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .textbox{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+    }
+
+    .logo2{
+        width: 184px;
+        height: 27px;
+    }
+
+    .logo{
+        width: 197px;
+    }
+
+    .shopping_cart2{
+        margin: 15px 20px 15px 40px;
+        width: 20px;
+        height: 15px;
+    }
+
+    .nav{
+        padding-top: 60px;
+        text-align: center;
+        width: 100%;
+        height: 7%;
+    }
+    
+    article{
+        width: 100%;
+        height: 18%;
+    }
+    
+    .login_text{
+        font-size: 25px;
+        font-weight: bold;
+        color:#263374;
+        text-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+    
+    .accountdiv{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .passworddiv{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .checkboxdiv{
+        display:flex;   
+        margin-top: 6px;
+        margin-bottom: 16px;
+        margin-left: 18%;
+    }
+    
+    .acpwtext{
+        font-size: 14px;
+        color:#263374;
+        margin-bottom: 10px;
+    }
+    
+    #account{
+        background-color: #EFEFEF;
+        width: 200px;
+        height: 15px;
+        border: 2px;
+        border-bottom: 2px #ABABAB solid;
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+    
+    #password{
+        background-color: #EFEFEF;
+        width: 200px;
+        height: 15px;
+        border: 2px ;
+        border-bottom: 2px #ABABAB solid;
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+    
+    .remembertext{
+        font-size: 12px;
+        color:#263374;
+        line-height: 1.1;
+        max-height: 14px;
+        max-width: 48px;
+    }
+    
+    #remember{
+        width: 14px;
+        height: 14px;
+        border: 1px #ABABAB solid;
+        margin: 0px;
+    }
+    
+    .forgetpw{
+        font-size: 12px;
+        color:#263374;
+        text-decoration: underline;
+        margin-left: 20px;
+        line-height: 1.1;
+        max-height: 14px;
+        max-width: 54px;
+    }
+    
+    .twobutton{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .loginbutton{
+        width: 40px;
+        height: 18px;
+        border: 2px;
+        border-radius: 3px;
+        background-color: #263374;
+        color: white;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+        font-weight: bold;
+        font-size: 12px;
+        margin: 0px 28px;
+    }
+    
+    .loginbutton:hover{
+        background-color: rgb(79, 130, 179);
+        box-shadow: 3px 3px 6px rgba(3, 60, 71, 0.336);
+        color: #fff;
+        transform: translateY(1px);
+    }
+    
+    .registeredbutton{
+        width: 40px;
+        height: 18px;
+        border: 2px;
+        border-radius: 3px;
+        background-color: #263374;
+        color: white;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+        font-weight: bold;
+        font-size: 12px;
+        margin: 0px 28px;
+    }
+    
+    .registeredbutton:hover{
+        background-color: rgb(79, 130, 179);
+        box-shadow: 3px 3px 6px rgba(3, 60, 71, 0.336);
+        color: #fff;
+        transform: translateY(1px);
+    }
+    
+    aside{
+        margin-top: 20px;
+        width: 100%;
+        height: 16%;
+    }
+    
+    .onebutton{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .checkbuywhat{
+        width: 95px;
+        height: 18px;
+        border: 2px;
+        border-radius: 5px;
+        background-color: #263374;
+        color: white;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .checkbuywhat:hover {
+        background-color: rgb(114, 217, 243);
+        box-shadow: 0px 15px 20px rgba(83, 226, 255, 0.336);
+        color: #fff;
+        transform: translateY(-4px);
+    }
+    
+    .redtextbox{
+        width: 70%;
+        height: 125px;
+        text-align: center;
+        margin: 17px 15% 0px 15%;
+    }
+    
+    .redtext{
+        font-size: 10px;
+        color: #FF0000;
+    }
+
+    .footer{
+        height: 12%;
+        background-color: #263374;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .showmore{
+        display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .textbox2{
+        width: 124px;
+        height: 33px;
+        margin-top: 4px;
+        text-align: center;
+        color: white;
+    }
+
+    .text2{
+        color:white;
+        font-size: 10px;
+    }
+
+    .line2{
+        width: 2px;
+        height: 13px;
+        margin: 0px;
+        margin-top: 12px;
+        background-color:white;
+    }
+
+    .information{
+        color:white;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+
+    .companyinformation{
+        color:white;
+        font-size: 10px;
+        margin-top: 7px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .space{
+        margin-left: 20px;
+        text-align: center;
+        max-width: 205px;
+        max-height: 312px;
+        margin-bottom: 20px;
+    }
+
+    footer.footer{
+        height: 100px;
+    }
+}
